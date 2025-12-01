@@ -54,8 +54,8 @@
   <header class="bg-primary text-white">
     <div class="container text-center">
       <h1>Morning, Noon, or Not at All: Varying Hours of Care in SBHCs</h1>
-      <p class="lead">by JJ Moon</p>
-      <p class="lead">Last updated on November 19th, 2025</p>
+      <p class="lead">by Jiho Jack Moon and Amanda Rose Geller</p>
+      <p class="lead">Last updated on November 30th, 2025</p>
       <p class="lead">for Data Visualization for All</br>with Prof. Jack Dougherty</br>Trinity College, Hartford CT, USA</p>
     </div>
   </header>
@@ -70,7 +70,19 @@
 
           <p class="lead">This is larger text to pull readers into your data story with a compelling introduction. Notice how this paragraph appears in a larger font than others, because the HTML code begins with a "lead" class.</p>
 
-          <p>School-Based Health Centers (SHBCs) have become one of the most important tactics for improving student health access. SBHCs are defined by the Connecticut Association for School Based Health Centers (CASBHC) as, “comprehensive primary health care facilities licensed as outpatient clinics or as hospital satellites. The SBHCs are located within or on school grounds and serve students in grades pre-K-12.” To clarify, these centers “are not the same as the school nurse's office”, though many school nurse offices often collaborate with SBHCs. School-Based Health Centers are crucial to students who are in particularly compromising positions. Some do not have access to insurance, others don’t have a means of getting to a doctor’s office, some do not have the time to wait for appointments to open up. Implementing these health services within schools can eliminate these unfair barriers. </p>
+          <p>School Based Health Centers (SHBCs) have become one of the most important tactics for improving student health access. SBHCs are defined by the Connecticut Association for School Based Health Centers (CASBHC) as, “comprehensive primary health care facilities licensed as outpatient clinics or as hospital satellites. The SBHCs are located within or on school grounds and serve students in grades pre-K-12” (CASBHC, <a href="https://ctschoolhealth.org/">Connecticut Association of School Based Health Centers </a>). To clarify, these centers “are not the same as the school nurse's office”, though many school nurse offices often collaborate with SBHCs. SBHC services include mental health, medical health, and dental care in which students from all ages can receive things like immunizations, routine cleanings, or counseling sessions. School Based Health Centers are crucial to students who are in particularly compromising positions. Some do not have access to insurance, others don’t have a means of getting to a doctor’s office, some do not have the time to wait for appointments to open up. Implementing these health services within schools can eliminate these unfair barriers.</p>
+
+         <p>We are working to analyze the hours of care in over 300 SBHCs to help answer two key questions for the Connecticut Association for School Based Health Centers: How do hours of operation vary across Connecticut’s SBHCs, and is there a relationship between high or low hours and indicators of community need such as free / reduced-price lunch eligibility? CASBHC advocates for these health centers, ensuring that SBHCs are established as valid healthcare systems across Connecticut. However, it is not just about establishing a clinic. It is about the availability of these clinics, reflected by their hours of operation. Analyzing which areas are lacking in hours of care can help identify where lack of healthcare is most prevalent. Researching SBHC hours and a possible correlation to community need allows us to assess potential gaps in service availability. This will help us and our community partner, CASBHC, explore whether certain communities may be subject to less availability in school-based healthcare. Understanding when these centers are open allows students to know what is, or is not, accessible to them.</p>
+
+           <h3>Thesis Findings</h3>
+
+          <p class="lead">Although weekly SBHC operating hours show a weak positive correlation with free and reduced price lunch eligibility, our findings reveal that centers offering 35 or more weekly hours cluster primarily in major urban districts. This suggests that operational capacity is influenced more by geographic and structural factors than by socioeconomic indicators alone. The predominance of less than maximum hours across SBHCs indicates that many students face restricted access to essential health services, underscoring the importance of understanding how these patterns shape the availability of care for those who may rely on SBHCs as their primary healthcare source.</p>
+
+          <p>With this information, CASBHC can visualize the districts in which students may not be receiving adequate care, where communities have inconsistent access, and understand which schools or districts may need more targeted support to increase availability. Understanding SBHC’s hours can strengthen advocacy and even policy work for CASBHC if their services are more widespread and less limited.</p>
+
+           <h4>Caution About Questionable Data</h4>
+
+          <p>As with any dataset, no data is perfect. SBHC schedules are reported in very different ways. For example, some schools do not list the specific days or hours they are open, such as Mountain View School in the Bristol School district which is reported to offer medical, mental health, and dental health services though there are no operation hours listed. To compensate for these discrepancies, we had to make assumptions that if days and/or hours were not listed then a standard Monday - Friday, with hours from about 8am - 3pm were instated as the “default”. Other schools list generalized hours, or even failed to specify the offered services. In addition to this, some SBHCs are listed with improbable combinations of hours and services. For example, one listing stated that they had a mobile dental service available Monday through Friday during daytime school hours, though those vehicles are designed to move between different schools throughout the day, therefore we can conclude this report may be inaccurate. All of these issues raise questions about data accuracy. By addressing these doubts, we can accept that no dataset is perfect and continue to work with the best available data.</p>
 
           <p>Compose your data story in your Google Doc, where it's easier to write and edit, especially when working with other people. When you're ready, create your own copy of this <a href="https://github.com/DataVizForAll/dataviz-story-template">GitHub dataviz-story-template </a>, and publish it online using Settings > Pages. When your version is published, copy and paste the live web link into your README file so you can easily find it.</p>
 
@@ -94,9 +106,9 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
 
-          <h2>Visuaizations for further understanding</h2>
+          <h2>Verifying Our Data</h2>
 
-          <p>TELL your story and SHOW your evidence. When describing charts, maps, or tables that appear further below, refer to them "...as shown in Figure 1" or "...as shown in Table 1" and include those figure/table numbers in the titles or captions below.</p>
+          <p>To take caution, we flagged 10 SBHCs with questionably reported hours and services, and called each school’s phone number to directly ask for clarification. Out of the ten schools called, only one of them was able to confirm our exact data, as shown in the table below.</p>
 
           <p>Embed each of your published visualizations as an HTML iframe code, following instructions in <a href='https://handsondataviz.org/embed.html'>Chapter 9 of HODV</a>, similar to the sample below.</p>
 
@@ -117,7 +129,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
 
-          <h2>EDIT Section 3 Label</h2>
+          <h2>Sources & Methods</h2>
 
           <p>Create a separate section to describe how you obtained your data, key steps in your process, and cautions for interpreting its meaning. Write for an audience of future Trinity College students who may wish to replicate your steps. Write in HTML format and always include links to data sources, like this example from <a href='https://data.ct.gov'>CT Open Data</a>. Also link to your shared Google Sheets when appropriate.</p>
 
