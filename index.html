@@ -79,18 +79,6 @@
          <p>By examining patterns in service availability, our goal was to identify areas where students may face reduced access to school-based healthcare and to help CASBHC better understand whether certain communities encounter gaps in SBHC availability.</p>
 
           
-        
-
-          <p>Compose your data story in your Google Doc, where it's easier to write and edit, especially when working with other people. When you're ready, create your own copy of this <a href="https://github.com/DataVizForAll/dataviz-story-template">GitHub dataviz-story-template </a>, and publish it online using Settings > Pages. When your version is published, copy and paste the live web link into your README file so you can easily find it.</p>
-
-          <p>In your GitHub copy of this template, open the "index.html" file to see how everything must be written in HTML format. Click the pencil symbol in GithHub to edit the file. HINT: In the upper-right corner, switch the dropdown menu from "No Wrap" to "Soft Wrap" to easily view long segments of code in your screen.</p>
-
-          <p>Paragraphs like this one must begin with a "p" tag and end with a "p" closing tag.</p>
-
-          <p>Links must begin and end with "a" anchor tags, with the web address inside either single or double quotes. If you need guidance, check out this <a href='https://ctschoolhealth.org/'>CTSchoolHealth link</a>.
-
-          <p>Change default navigation labels (such as "Section 1") to customized labels to guide your readers. While some authors use traditional headers (such as "Findings" or "Sources & Methods"), you're welcome to innovate with more creative headers (such as "Why It Matters" or "How We Made This"). Be sure to EDIT names in TWO locations in the template: the Navigation Container (around lines 30-50) and the corresponding Sections labels further below. EDIT only the reader-friendly labels, and do not change the underlying code.</p>
-
         </div>
       </div>
     </div>
@@ -108,12 +96,28 @@
 
           <p>As with any dataset, no data is perfect. SBHC schedules are reported in very different ways. For example, some schools do not list the specific days or hours they are open, such as Mountain View School in the Bristol School district which is reported to offer medical, mental health, and dental health services though there are no operation hours listed. To compensate for these discrepancies, we had to make assumptions that if days and/or hours were not listed then a standard Monday - Friday, with hours from about 8am - 3pm were instated as the “default”. Other schools list generalized hours, or even failed to specify the offered services. In addition to this, some SBHCs are listed with improbable combinations of hours and services. For example, one listing stated that they had a mobile dental service available Monday through Friday during daytime school hours, though those vehicles are designed to move between different schools throughout the day, therefore we can conclude this report may be inaccurate. All of these issues raise questions about data accuracy. By addressing these doubts, we can accept that no dataset is perfect and continue to work with the best available data.</p>
 
+          <h5>Verifying Our Data</h5>
+
+           <p>To take caution, we flagged 10 SBHCs with questionably reported hours and services, and called each school’s phone number to directly ask for clarification. Out of the ten schools called, only one of them was able to confirm our exact data, as shown in the table below.</p>
+
           <iframe title="We Called 10 Schools Questioning the Data" aria-label="Table" id="datawrapper-chart-QWO40" src="https://datawrapper.dwcdn.net/QWO40/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="910" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
 
-            <p>EDIT CAPTIONS like this -- Figure 2: Explore the <a href="https://datawrapper.dwcdn.net/QWO40/2/">interactive chart</a> AND ADD your description of the chart here. Make sure your caption includes a direct link to your published chart or map in case the embed code fails to display.</p>
+            <p>Figure 2: Explore the <a href="https://datawrapper.dwcdn.net/QWO40/2/">interactive chart</a> Responses from 10 randomly selected schools. School(s) with confirmed services and hours are highlighted in green.</p>
 
-        
-          
+
+          <p>However, these verifications do not suggest the entire dataset is wrong; instead, they highlight CASBHC’s need for more consistent, higher-quality data entries on SBHC hours and services in order to carry out its work effectively. The dataset is still trustworthy, but the inconsistencies we identified reveal where reporting practices falter. These gaps reflect broader challenges in how SBHCs communicate their schedules and services, illustrating the growing pains of a system that is still developing. Even inconsistent findings are meaningful ones, as they pinpoint areas where SBHCs can improve as healthcare systems and increase support for SBHC advocacy.</p>
+
+
+           <h6>Defining Hours of SBHC service </h6>
+
+          <p>We calculated total SBHC operating hours using the schools that reported their days and hours. Reported hours were grouped into ranges (6–33, 33–35, 35–50), and we used the median value of 35 hours to represent each range, allowing us to compare how many schools operated above or below this benchmark.</p>
+
+          <iframe title="Defining the Hours" aria-label="Table" id="datawrapper-chart-415a6" src="https://datawrapper.dwcdn.net/415a6/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="268" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+
+          <p>Figure 3: Explore the <a href="https://datawrapper.dwcdn.net/415a6/4/">interactive chart</a> Table of defining hours of SBHCs. Used the median of 35 hours standardized the data, improved accuracy by excluding blank reports and extreme outliers, and allowed meaningful comparison across schools.</p>
+
+         
+ 
         </div>
       </div>
     </div>
